@@ -1,0 +1,8 @@
+########################################################
+alias alps=". /root/scripts/alps_manager/alps.sh /root/scripts/alps_manager"
+alias alpm=". /root/scripts/alps_manager/alp_master.sh /root/scripts/alps_manager"
+###
+#alpID: 1
+#alpNm: ALPS
+#status: 1
+########################################################

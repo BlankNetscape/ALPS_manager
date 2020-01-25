@@ -1,0 +1,18 @@
+######################################################## 
+### ALP ### 0002 ### Basic1
+# Aliases goes down here. (e.x. al1as test="do things" )
+alias c="clear"
+alias e="exit"
+alias q="quit"
+alias h="history"
+alias la="ls -ls"
+alias g="git clone"
+alias chm="chmod +x"
+#alias none="do nothing"
+###
+#alpID: 2
+#alpNm: Basic
+#status: 1
+#author: kali
+#help: 
+########################################################
