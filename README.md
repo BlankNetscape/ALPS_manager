@@ -20,6 +20,13 @@ path="/path/to/ALPS_manager"
 
 **Finally! You have ALPS**
 
+*4. actually you should to fix  defaults ALPS.alp
+
+Open default .alp package and configure it with your [**path**]:
+```
+.../ALPS_manager/alp/ALPS.alp
+```
+
 # Usage
 ```
 alps [-h/--help]
