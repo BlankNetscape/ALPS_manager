@@ -1,5 +1,5 @@
 #  -՝, ALPS manager ､´-
-Divide and conquer!!
+Divide and conquer!!\n
 P.S. Actually ALPS is (aliases package list)
 
 # Set-up
