@@ -1,5 +1,5 @@
 #!/bin/bash
-# path="./" # local
+#path="./" # local
 path="/root/scripts/alps_manager" # global # !IMPORTANT
   # ^ path format - [path to alps_manager folder]
   # ^ (without "/" at the END)

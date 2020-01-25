@@ -1,6 +1,5 @@
 #!/bin/bash
-path="$(cat ./boot.sh | grep '^path' | awk '{print substr($1,6);}' | awk -F '"' -v OFS="" '{$1=""; print}')"
-echo "(PATH :${path})"
+#path="$(cat ./boot.sh | grep '^path' | awk '{print substr($1,6);}' | awk -F '"' -v OFS="" '{$1=""; print}')"
 # ^ grep ^path without (path=) and quotes
 ### Vars
   # Box
@@ -100,9 +99,9 @@ echo "(PATH :${path})"
   #
 ###
 ##
-if [ "$1" != "" ]
+if [[ ("$1" != "") || ("$2" != "") ]]
 then
-  if [[ ($1 == "-h") || ($1 == "--help") ]]; then
+  if [[ (($1 == "-h") || ($1 == "--help")) || (($2 == "-h") || ($2 == "--help")) ]]; then
     printHelp
     exit
   fi
@@ -112,7 +111,7 @@ fi
 pkgStatus=1
 clrPkgStatus="\e[38;5;${alpStatus}m"
 loadLineCount=$(cat ${path}/current | wc -l)
-echo "here:${loadLineCount}"
+#echo "here:${loadLineCount}"
 ### Test
   # echo $loadLineCount
   # echo -e "$path"
