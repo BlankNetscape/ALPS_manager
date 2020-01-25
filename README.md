@@ -24,9 +24,13 @@ path="/path/to/ALPS_manager"
 
 *4. actually you should to fix  defaults ALPS.alp
 
-Open default .alp package and configure it with your [**path**]:
+Open default .alp package and configure it with your **[path]**:
 ```
 .../ALPS_manager/alp/ALPS.alp
+```
+```
+function alps() { [PATH]/alps_manager/alps.sh /root/scripts/alps_manager $1; }
+alias alpm=". [PATH]/alps_manager/alp_master.sh /root/scripts/alps_manager"
 ```
 
 # Usage
