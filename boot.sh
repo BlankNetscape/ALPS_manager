@@ -15,7 +15,7 @@ if [[ -e "${path}/alps_scaner.sh" ]]; then
   fi
 fi
 # ^ Checks
-. $path/alps_scanner.sh
+. $path/alps_scanner.sh ${path}
 # ^ Scan
 for (( line=1; line<=$(cat ${path}/current | wc -l); line++))
 do # execute Line(pkg's) times
