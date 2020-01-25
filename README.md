@@ -7,7 +7,7 @@ P.S. Actually ALPS is (aliases package list)
 1. Replace script folder to convenient place. 2. Copy [path to dir] to `boot.sh` file:
 ```
 #!/bin/bash
-**path="/path/to/ALPS_manager"** 
+path="/path/to/ALPS_manager"
 ...
 ```
 
