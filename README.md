@@ -1,5 +1,6 @@
 #  -՝, ALPS manager ､´-
 Divide and conquer!!
+P.S. Actually ALPS is (aliases package list)
 
 # Set-up
 1. Replace script folder to convenient place. 2. Copy [path to dir] to `boot.sh` file:
