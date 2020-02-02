@@ -35,7 +35,8 @@ Open default ALPS.alp package and configure it with your [path to **boot.sh**]:
 
              └──┬──┘
                 
-                └─[`/path/to/ALPS_manager/alp/ALPS.alp`]
+                └─[/path/to/ALPS_manager/alp/ALPS.alp]
+                
                 
 ```
 function alps() { /[path to boot.sh]/alps.sh /[path to boot.sh] $1; }
