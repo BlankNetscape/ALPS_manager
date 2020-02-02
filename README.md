@@ -16,7 +16,7 @@ path="/path/to/ALPS_manager"
 . /path/to/ALPS_manager/boot.sh
 ```
 
-3. And.. `restart`
+3. And.. `reboot`
 
 **Finally! You have ALPS**
 
