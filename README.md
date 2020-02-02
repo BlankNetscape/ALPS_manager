@@ -4,39 +4,52 @@ Divide and conquer!!
 P.S. Actually ALPS is (aliases package list)
 
 # Set-up
-1. Replace script folder to convenient place. 2. Copy [path to dir] to `boot.sh` file:
+Replace script folder to convenient place.
+
+1. Give right permission to script's files:
+```
+chmod +x *
+```
+
+2. Copy [path to **boot.sh**] (using `pwd`) to `boot.sh` file:
 ```
 #!/bin/bash
 path="/path/to/ALPS_manager"
 ...
 ```
 
-2. Then copy [path to **boot.sh**] to your `.bashrc`:
+3. Then copy [path to **boot.sh**] to your `.bashrc`:
 ```
 . /path/to/ALPS_manager/boot.sh
 ```
 
-3. And.. `reboot`
+4. And..  `reboot`
 
 **Finally! You have ALPS**
 
 
 
-*4. actually you should to fix  defaults ALPS.alp
+* *5. actually you should to fix  defaults ALPS.alp*
 
-Open default .alp package and configure it with your **[path]**:
+Open default ALPS.alp package and configure it with your [path to **boot.sh**]:
+             └──┬──┘
+                └─[`/path/to/ALPS_manager/alp/ALPS.alp`]
 ```
-.../ALPS_manager/alp/ALPS.alp
-```
-```
-function alps() { [PATH]/alps_manager/alps.sh /root/scripts/alps_manager $1; }
+function alps() { /[path to boot.sh]/alps.sh /[path to boot.sh] $1; }
 
-alias alpm=". [PATH]/alps_manager/alp_master.sh /root/scripts/alps_manager"
+alias alpm=". /[path to boot.sh]/alp_master.sh /[path to boot.sh]"
 ```
 
 # Usage
+ALPS help:
 ```
 alps [-h/--help]
+```
+ALPS master:
+
+create alias group..
+```
+alpm
 ```
 # Output
 ```
