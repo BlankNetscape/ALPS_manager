@@ -33,9 +33,8 @@ path="/path/to/ALPS_manager"
 
 Open default ALPS.alp package and configure it with your [path to **boot.sh**]:
 
-dddddd
-             └──┬──┘d
-               d d
+             └──┬──┘
+
                 └─ /path/to/ALPS_manager/alp/ALPS.alp
                 asddddddddddddddddddddddddd
        sa
